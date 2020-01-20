@@ -1,6 +1,6 @@
 # the Most Visited City Index
 
-This package helps to find out which italian city was the most visited by doing data analysis data on numbers of non-italian visitors, who have been in Italy, based on demographic characteristics and GDP of countries of origin. The official data will be taken by "official website".
+This package helps to find out which italian city was the most visited by doing data analysis on numbers of non-italian visitors, who have been in Italy, based on demographic characteristics and GDP of countries of origin. The official data will be taken by "official website".
 
 ## Installation
 
