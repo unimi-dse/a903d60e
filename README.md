@@ -1,7 +1,6 @@
-# a903d60e
 # the Most Visited City Index
 
-This package helps to analyze data based on number of non-italian visitors, in the country of Italy, based on demographic characteristics and GDP of country of origin
+This package helps to analyze data based on numbers of non-italian visitors, who have been in Italy, based on demographic characteristics and GDP of countries of origin.
 
 ## Installation
 
