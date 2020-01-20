@@ -1,4 +1,4 @@
-# the best lovers of Italian culture in 2018 Index
+# The best lovers of Italian culture in 2018 Index
 
 This package helps to find out the nationality of the most number of tourists who visited by doing data analysis on numbers of non-italian visitors, who have been in Italy, based on countries of origin and type of accommodation (hotels and non-hotels). The official data will be taken from dati.Istat.it.
 
