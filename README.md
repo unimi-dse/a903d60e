@@ -17,7 +17,9 @@ Load the package
 require(mostvisited)
 ```
 
-The only function of the package is `italy()` and prints _"This is the most visited city in 2019!"_
+The only function of the package is `mostvisited()` and start the analysis
+
+//prints _"This is the most visited city in Italy!"//
 
 ```R
 italy()
