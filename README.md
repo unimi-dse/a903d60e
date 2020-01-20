@@ -1,6 +1,6 @@
-# the Most Visited City Index
+# the best lovers of Italian culture in 2018 Index
 
-This package helps to find out which italian city was the most visited by doing data analysis on numbers of non-italian visitors, who have been in Italy, based on demographic characteristics and GDP of countries of origin. The official data will be taken by "official website".
+This package helps to find out the nationality of the most number of tourists who visited by doing data analysis on numbers of non-italian visitors, who have been in Italy, based on countries of origin and type of accommodation (hotels and non-hotels). The official data will be taken from dati.Istat.it.
 
 ## Installation
 
@@ -14,13 +14,11 @@ nameofpackage::install_github('unimi-dse/15f07018')
 Load the package
 
 ```R
-require(mostvisited)
+require(nationality)
 ```
 
-The only function of the package is `mostvisited()` and start the analysis
-
-//prints _"This is the most visited city in Italy!"//
+The only function of the package is `nationality()` and start the analysis and will print out "This is (...)!"
 
 ```R
-mostvisited()
+nationality()
 ```
