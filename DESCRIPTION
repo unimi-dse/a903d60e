@@ -4,7 +4,10 @@ Title: Most Visited City in Italy
 Version: 0.1.0
 Author: Amina Khalfa
 Maintainer:  <yourself@somewhere.net>
-Description: This R Package provide the most visited city in 2020, in the country of Italy based on the number of non-italian visitors coming from Europe, North America, South America, Asia and Oceania, considering also demographic characteristics and GDP.
+Description: This R Package provide the most visited city in 2020,    
+in the country of Italy based on the number of non-italian visitors    
+coming from Europe, North America, South America, Asia and Oceania,    
+considering also demographic characteristics and GDP.
     Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
 Encoding: UTF-8
