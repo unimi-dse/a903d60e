@@ -8,6 +8,10 @@ This package helps to find out the nationality of the most number of tourists wh
 # first install the R package "nameofpackage" if not installed
 nameofpackage::install_github('unimi-dse/15f07018')
 ```
+```R
+#plus install the R package "shiny" if not installed
+shiny::install_github('unimi-dse/15f07018')
+```
 
 ## Usage
 
