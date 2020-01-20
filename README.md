@@ -22,5 +22,5 @@ The only function of the package is `mostvisited()` and start the analysis
 //prints _"This is the most visited city in Italy!"//
 
 ```R
-italy()
+mostvisited()
 ```
