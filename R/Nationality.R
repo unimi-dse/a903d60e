@@ -1,14 +1,23 @@
+
+
+
+
+
+
+
+
+
 #R Package to analyze data
 #installation
-install.packages("readxl")
+#install.packages("readxl")
 
 #usage
-library(readxl)
-xlsx_example <- readxl_example("datasets.xlsx")
-read_excel(xlsx_example)
+#library(readxl)
+#xlsx_example <- readxl_example("datasets.xlsx")
+#read_excel(xlsx_example)
 
 #List the sheet names with excel_sheets().
-excel_sheets(xlsx_example)
+#excel_sheets(xlsx_example)
 
 #Read Excel files using readxl package: read_excel(file.choose(), sheet = 1)
 
@@ -31,6 +40,6 @@ excel_sheets(xlsx_example)
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
-}
+#hello <- function() {
+#  print("Hello, world!")
+#}
