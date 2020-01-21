@@ -9,3 +9,7 @@ read_excel(xlsx_example)
 
 #List the sheet names with excel_sheets().
 excel_sheets(xlsx_example)
+
+
+#The above R code, assumes that the file “my_file.xls” and “my_file.xlsx” is in your current working directory. 
+#To know your current working directory, type the function getwd() in R console.
