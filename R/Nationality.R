@@ -1,4 +1,5 @@
-
+x <- read.csv('Data.csv')             
+head(x)
 
 
 
