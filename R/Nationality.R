@@ -11,6 +11,7 @@ library(thePackage)
 library(Rtools)
 #library(devtools)
 library(tidyverse)
+library(plotly)
 
 
 X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
@@ -18,6 +19,9 @@ X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Dat
 colnames(X) <- c("COUNTRIES", "NUMBER OF VISITORS")
 
 X
+
+p <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
+p
 
 
 
