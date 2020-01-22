@@ -13,7 +13,7 @@ library(Rtools)
 library(tidyverse)
 library(plotly)
 
-
+#import data
 X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
 
 colnames(X) <- c("COUNTRIES","NUMBER OF VISITORS")
@@ -26,7 +26,7 @@ X
 library(plotly)
 packageVersion('plotly')
 
-
+#data visualization
 p <- plot_ly(
   x = c("Austria",
           "Belgio",
@@ -147,7 +147,8 @@ p <- plot_ly(
 p
 
 
-
+#data analysis
+#Mean, Median, Mode & Range
 
 
 
