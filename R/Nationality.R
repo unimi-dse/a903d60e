@@ -3,6 +3,7 @@ install.packages("Rtools")
 install.packages("thePackage")
 #install.package("devtools")
 install.packages("tidyverse")
+install.packages("plotly")
 
 
 library(httr)
