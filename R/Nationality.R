@@ -141,7 +141,7 @@ p <- plot_ly(
           10679102,
           2795291),
   name = "SF Zoo",
-  type = "bar"
+  type = "N/C"
 )
 
 p
