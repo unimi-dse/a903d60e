@@ -12,6 +12,8 @@ library(tidyverse)
 
 X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
 
+colnames(X) <- c("COUNTRIES", "N. OF VISITORS")
+
 X
  
 
