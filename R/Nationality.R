@@ -35,7 +35,7 @@ head(x)
 #
 #   http://r-pkgs.had.co.nz/
 #
-# Some useful keyboard shortcuts for package authoring:
+# Some useful keyboard shortcuts for package authoring: 
 #
 #   Install Package:           'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
