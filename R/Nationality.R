@@ -2,11 +2,13 @@ install.packages("httr")
 install.packages("Rtools")
 install.packages("thePackage")
 #install.package("devtools")
+install.packages("tidyverse")
 
 library(httr)
 library(thePackage)
 library(Rtools)
 #library(devtools)
+library(tidyverse)
 
 X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
 
