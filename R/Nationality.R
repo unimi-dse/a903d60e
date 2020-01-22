@@ -1,3 +1,7 @@
+library(httr)
+
+nuts <- 
+read.csv(text=GET("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv", skip=7, header=T)
 x <- read.csv('Data.csv')             
 head(x)
 
