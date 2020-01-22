@@ -1,9 +1,42 @@
-library(httr)
+install.packages("httr")
+install.packages("Rtools")
+install.packages("thePackage")
 
-nuts <- 
-read.csv(text=GET("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv", skip=7, header=T)
-x <- read.csv('Data.csv')             
-head(x)
+library(httr)
+library(thePackage)
+library(Rtools)
+
+X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
+
+X
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#library(httr)
+
+#nuts <- 
+#read.csv(text=GET("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv", skip=7, header=T)
+
+#x <- read.csv('Data.csv')             
+#head(x)
 
 
 
