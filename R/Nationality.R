@@ -160,6 +160,19 @@ p
 #FUNCTION OF NATIONALITY (FIND THE MAX. NUMBER)
 
 
+cat("CSV Data type : ",class(x), "\n\n")
+
+print(x)
+
+
+maxSalariedCelebrities = subset(x, Number==max(Number))
+print(maxSalariedCelebrities)
+
+
+maxSalariedCelebrities1 = subset(x, Number==min(Number))
+print(maxSalariedCelebrities1)
+
+
 
 
 
