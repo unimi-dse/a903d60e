@@ -20,11 +20,11 @@ library(plotly)
 
 
 #IMPORT DATA
-X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
+x <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
 
-colnames(X) <- c("COUNTRIES","NUMBER OF VISITORS")
+colnames(x) <- c("COUNTRIES","Number")
 
-X
+x
 
 #p <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
 #p
@@ -211,190 +211,10 @@ return(s)
 
 
 
-#install.packages("httr")
-#install.packages("Rtools")
-#install.packages("thePackage")
-#install.package("devtools")
-#install.packages("tidyverse")
-#install.packages("plotly")
-
-
-#library(httr)
-#library(thePackage)
-#library(Rtools)
-#library(devtools)
-#library(tidyverse)
-#library(plotly)
-
-#import data
-#X <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
-
-#colnames(X) <- c("COUNTRIES","NUMBER OF VISITORS")
-
-#X
-
-#p <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
-#p
-
-#library(plotly)
-#packageVersion('plotly')
-
-#data visualization
-#p <- plot_ly(
-#  x = c("Austria",
-          "Belgio",
-          "Danimarca",
-          "Finlandia",
-          "Francia",
-          "Germania",
-          "Grecia",
-          "Irlanda",
-          "Lussemburgo",
-          "Paesi Bassi",
-          "Portogallo",
-          "Regno unito",
-          "Spagna",
-          "Svezia",
-          "Bulgaria",
-          "CecaRepubblica",
-          "Cipro",
-          "Croazia",
-          "Estonia",
-          "Lettonia",
-          "Lituania",
-          "Malta",
-          "Norvegia",
-          "Polonia",
-          "Romania",
-          "Russia",
-          "Slovacchia",
-          "Slovenia",
-          "Turchia",
-          "Ungheria",
-          "Islanda",
-          "Altri paesi europei",
-          "Egitto",
-          "NordAfrica",
-          "Sud Africa",
-          "Altri paesi africani",
-          "Israele",
-          "AltriMedioOriente",
-          "Cina",
-          "Giappone",
-          "Corea del sud",
-          "India",
-          "Altri Paesi dell'Asia",
-          "Canada",
-          "Stati Uniti",
-          "Messico",
-          "Argentina",
-          "Brasile",
-          "Venezuela",
-          "Altri Paesi Nordamericani",
-          "Altri Paesi dell'America centro-meridionale",
-          "Nuova Zelanda",
-          "Altri Paesi dell'Oceania",
-          "Altri",
-          "Switzerland and Liechtenstein",
-          "Australia"),
-  #y = c(9519898,
-          4912441,
-          3296288,
-          934276,
-          14197976,
-          58645390,
-          852765,
-          1734636,
-          387452,
-          11037222,
-          1005014,
-          14043501,
-          5684438,
-          2566196,
-          711441,
-          3903499,
-          97618,
-          697665,
-          216920,
-          261615,
-          454214,
-          373446,
-          1285585,
-          5743920,
-          2510265,
-          5382255,
-          1144272,
-          890307,
-          985097,
-          2028427,
-          142553,
-          3746661,
-          285933,
-          606081,
-          303267,
-          780323,
-          1732936,
-          1454621,
-          5287714,
-          2238222,
-          1843291,
-          1258210,
-          2568242,
-          2398572,
-          14546868,
-          818997,
-          1752110,
-          2546197,
-          137147,
-          75297,
-          1664748,
-          359063,
-          107875,
-          877186,
-          10679102,
-          2795291),
-#  name = "SF Zoo",
-#  type = "N/C"
-#)
-
-#p
-
-
-#data analysis
-#Mean, Median, Mode & Range
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#library(httr)
-
-#nuts <- 
-#read.csv(text=GET("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv", skip=7, header=T)
-
-#x <- read.csv('Data.csv')             
-#head(x)
-
-
-
-
-
-
-
-
+#########################################################################################################################################
 #R Package to analyze data
 #installation
 #install.packages("readxl")
