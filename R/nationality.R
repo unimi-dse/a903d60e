@@ -153,27 +153,36 @@ p <- plot_ly(
 
 p
 
-#DATA ANALYSIS (MODE, MEDIAN,RANGE)
-
-
-
-#FUNCTION OF NATIONALITY (FIND THE MAX. NUMBER)
-
+#DATA ANALYSIS (MIN, MAX, RANGE)
 
 cat("CSV Data type : ",class(x), "\n\n")
 
 print(x)
 
 
-maxSalariedCelebrities = subset(x, Number==max(Number))
-print(maxSalariedCelebrities)
+
+MostPeoplefromCertainCountries = subset(x, Number==max(Number))
+print(MostPeoplefromCertainCountries)
 
 
-maxSalariedCelebrities1 = subset(x, Number==min(Number))
-print(maxSalariedCelebrities1)
+LessPeoplefromCertainCountries = subset(x, Number==min(Number))
+print(LessPeoplefromCertainCountries)
 
 
 
+
+#FUNCTION OF NATIONALITY (FIND THE MAX. NUMBER)
+#CREATE NATIONALITY FUNCTION
+#FIRST ASSIGN A VARIABLE TO THE DATAFRAME WE WILL ANALYZE
+#ALWAYS THE SECOND POSITION
+
+nationality <- function(data.frame) {
+s <- subset(data.frame(x), x %>% select(2)==max(x %>% select(2)))
+return(s)  
+}
+  
+#TEST
+#nationality(x)
 
 
 
