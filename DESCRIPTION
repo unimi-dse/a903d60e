@@ -1,9 +1,9 @@
 Package: sample
 Type: Package
-Title: Most Visited City in Italy
+Title: nationality
 Version: 0.1.0
 Author: Amina Khalfa
-Maintainer:  <yourself@somewhere.net>
+Maintainer:  <amina.khalfa@studenti.unimi.it>
 Description: This R Package provides the most visited city in 2020
 License: GPL-3
 Encoding: UTF-8
