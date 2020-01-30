@@ -1,7 +1,7 @@
 #This should return TRUE in the console if your Rtools installation worked properly
 find_rtools()
 
-#INSTALLATION OF ALL THE PACKAGES NEEDED, REMINDER FOR USE TO ALREADY INSTALL RTOOL before
+#INSTALLATION OF ALL THE PACKAGES NEEDED, REMINDER FOR USER TO ALREADY INSTALL RTOOL before
 
 install.packages("httr")
 install.packages("usethis")
