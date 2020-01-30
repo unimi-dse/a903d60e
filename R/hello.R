@@ -12,6 +12,7 @@ library(plotly)
 
 require(quantmod)
 
+#DATA VISUALIZATION
 x <- getSymbols(Symbols = 'EUR/TND', src = 'oanda', auto.assign = FALSE)
 
 tail(x)
@@ -20,3 +21,7 @@ plot(x[,1])
 
 
 #abcdef
+#DATA ANALYSIS
+min(x,na.rm = FALSE)
+max(x,na.rm = FALSE)
+
