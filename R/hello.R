@@ -13,7 +13,10 @@ library(plotly)
 require(quantmod)
 
 x <- getSymbols(Symbols = 'EUR/TND', src = 'oanda', auto.assign = FALSE)
+
 tail(x)
 
 plot(x[,1])
 
+
+#abcdef
