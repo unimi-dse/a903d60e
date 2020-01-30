@@ -1,17 +1,15 @@
 #This should return TRUE in the console if your Rtools installation worked properly
-find_rtools()
+#find_rtools()
 
 #INSTALLATION OF ALL THE PACKAGES NEEDED, REMINDER FOR USER TO ALREADY INSTALL RTOOL before
 
 install.packages("httr")
 install.packages("usethis")
 install.packages("devtools")
-install.packages("thePackage")
 
 #NEED TO CALL THE LIBRARIES TO USE THE FUNCTION PROPERLY
 library(httr)
 library(usethis)
-library(thePackage)
 #library(Rtools)
 library(devtools)
 library(tidyverse)
@@ -20,7 +18,7 @@ library(plotly)
 
 
 #IMPORT DATA
-x <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/R/Data.csv")
+x <- read.csv("https://raw.githubusercontent.com/unimi-dse/a903d60e/master/Data/Data.csv")
 
 colnames(x) <- c("COUNTRIES","Number")
 
