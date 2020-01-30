@@ -1,8 +1,8 @@
-r = getOption("repos")
-r["CRAN"] = "http://cran.us.r-project.org"
-options(repos = r)
-install.packages("devtools")
-devtools::install_github('unimi-dse/a903d60e')
+#r = getOption("repos")
+#r["CRAN"] = "http://cran.us.r-project.org"
+#options(repos = r)
+#install.packages("devtools")
+#devtools::install_github('unimi-dse/a903d60e')
 #install.packages("nation")
 
 install.packages('quantmod')
