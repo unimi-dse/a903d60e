@@ -1,57 +1,57 @@
 Country,Number,Continent,Percentage
-  Austria,9519898,Europe
-  Belgio,4912441,Europe
-  Danimarca,3296288,Europe
-  Finlandia,934276,Europe
-  Francia,14197976,Europe
-  Germania,58645390,Europe
-  Grecia,852765,Europe
-  Irlanda,1734636,Europe
-  Lussemburgo,387452,Europe
-  Paesi Bassi,11037222,Europe
-  Portogallo,1005014,Europe
-  Regno unito,14043501,Europe
-  Spagna,5684438,Europe
-  Svezia,2566196,Europe
-  Bulgaria,711441,Europe
-  CecaRepubblica,3903499,Europe
-  Cipro,97618,Europe
-  Croazia,697665,Europe
-  Estonia,216920,Europe
-  Lettonia,261615,Europe
-  Lituania,454214,Europe
-  Malta,373446,Europe
-  Norvegia,1285585,Europe
-  Polonia,5743920,Europe
-  Romania,2510265,Europe
-  Russia,5382255,Europe
-  Slovacchia,1144272,Europe
-  Slovenia,890307,Europe
-  Turchia,985097,Europe
-  Ungheria,2028427,Europe
-  Islanda,142553,Europe
-  Altri paesi europei,3746661,Europe
-  Egitto,285933,Africa
-  NordAfrica,606081,Africa
-  Sud Africa,303267,Africa
-  Altri paesi africani,780323,Africa
-  Israele,1732936,Asia
-  AltriMedioOriente,1454621,Asia
-  Cina,5287714,Asia
-  Giappone,2238222,Asia
-  Corea del sud,1843291,Asia
-  India,1258210,Asia
-  Altri Paesi dell'Asia,2568242,Asia
-  Canada,2398572,NorthAmerica
-  Stati Uniti,14546868,NorthAmerica
-  Messico,818997,NorthAmerica
-  Argentina,1752110,SouthAmerica
-  Brasile,2546197,SouthAmerica
-  Venezuela,137147,SouthAmerica
-  Altri Paesi Nordamericani,75297,NorthAmerica
-  Altri Paesi dell'America centro-meridionale,1664748,SouthAmerica
-  Nuova Zelanda,359063,Oceania
-  Altri Paesi dell'Oceania,107875,Oceania
-  Altri,877186,SouthAmerica
-  Switzerland and Liechtenstein,10679102,Europe
-  Australia,2795291,Oceania
+  Austria,9519898,Europe,0.16
+  Belgio,4912441,Europe,0.03
+  Danimarca,3296288,Europe,0.02
+  Finlandia,934276,Europe,0.006
+  Francia,14197976,Europe,0.09
+  Germania,58645390,Europe,0.39
+  Grecia,852765,Europe,0.05
+  Irlanda,1734636,Europe,0.01
+  Lussemburgo,387452,Europe,0.002
+  Paesi Bassi,11037222,Europe,0.07
+  Portogallo,1005014,Europe,0.006
+  Regno unito,14043501,Europe,0.09
+  Spagna,5684438,Europe,0.03
+  Svezia,2566196,Europe,0.01
+  Bulgaria,711441,Europe,0.004
+  CecaRepubblica,3903499,Europe,0.02
+  Cipro,97618,Europe,0.00
+  Croazia,697665,Europe,0.004
+  Estonia,216920,Europe,0.001
+  Lettonia,261615,Europe,0.001
+  Lituania,454214,Europe,0.003
+  Malta,373446,Europe,0.002
+  Norvegia,1285585,Europe,0.008
+  Polonia,5743920,Europe,0.03
+  Romania,2510265,Europe,0.01
+  Russia,5382255,Europe,0.01
+  Slovacchia,1144272,Europe,0.007
+  Slovenia,890307,Europe,0.005
+  Turchia,985097,Europe,0.006
+  Ungheria,2028427,Europe,0.013
+  Islanda,142553,Europe,0.00
+  Altri paesi europei,3746661,Europe,0.02
+  Egitto,285933,Africa,0.14
+  NordAfrica,606081,Africa,0.30
+  Sud Africa,303267,Africa,0.15
+  Altri paesi africani,780323,Africa,0.18
+  Israele,1732936,Asia,0.10
+  AltriMedioOriente,1454621,Asia,0.08
+  Cina,5287714,Asia,0.29
+  Giappone,2238222,Asia,0.13
+  Corea del sud,1843291,Asia,0.11
+  India,1258210,Asia,0.07
+  Altri Paesi dell'Asia,2568242,Asia,0.15
+  Canada,2398572,NorthAmerica,0.13
+  Stati Uniti,14546868,NorthAmerica,0.34
+  Messico,818997,NorthAmerica,0.04
+  Argentina,1752110,SouthAmerica,0.15
+  Brasile,2546197,SouthAmerica,0.24
+  Venezuela,137147,SouthAmerica,0.00
+  Altri Paesi Nordamericani,75297,NorthAmerica,0.00
+  Altri Paesi dell'America centro-meridionale,1664748,SouthAmerica,0.12
+  Nuova Zelanda,359063,Oceania,0.03
+  Altri Paesi dell'Oceania,107875,Oceania,0.00
+  Altri,877186,SouthAmerica,0.03
+  Switzerland and Liechtenstein,10679102,Europe,0.07
+  Australia,2795291,Oceania,0.10
