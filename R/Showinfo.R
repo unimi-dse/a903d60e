@@ -1,3 +1,48 @@
+
+
+Showinfo <- function(data.frame){
+
+  x <- system.file("inst/extdata/Data.csv", package = "sample")
+
+  colnames(x) <- c("COUNTRIES","Number","cont","perc")
+
+  ggplot2::ggplot(x, aes(displ, perc, colour = cont )) + geom_point()
+
+  return(x)
+}
+
+Showmost <- function(data.frame){
+  x <- system.file("inst/extdata/Data.csv", package = "sample")
+
+  colnames(x) <- c("COUNTRIES","Number","cont","perc")
+
+  res <- subset(x, Number==max(Number))
+
+  return(res)
+}
+
+Showless <- function(data.frame){
+  x <- system.file("inst/extdata/Data.csv", package = "sample")
+
+  colnames(x) <- c("COUNTRIES","Number","cont","perc")
+
+  ris <-  subset(x, Number==min(Number))
+
+  return(ris)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #r = getOption("repos")
 #r["CRAN"] = "http://cran.us.r-project.org"
 #options(repos = r)
@@ -52,21 +97,7 @@
 
 #x
 
-library(ggplot2)
-
-Showinfo <- function(data.frame){
-
-  x <- read.csv(system.file("inst/extdata/Data.csv", package = "sample"))
-
-  colnames(x) <- c("COUNTRIES","Number","cont","perc")
-
-  ggplot2::ggplot(x, aes(displ, perc, colour = cont )) + geom_point()
-
-  return(x)
-}
-
-
-
+#library(ggplot2)
 
 #p <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
 #p
@@ -75,8 +106,8 @@ Showinfo <- function(data.frame){
 #install.packages('plotly', repos='http://cran.us.r-project.org')
 #install.packages('plyr', repos = "http://cran.us.r-project.org")
 
-library(plotly)
-packageVersion('plotly')
+#library(plotly)
+#packageVersion('plotly')
 
 #DATA VISUALIZATION WITH PLOTLY
 #p <- plot_ly(
@@ -200,18 +231,19 @@ packageVersion('plotly')
 
 #DATA ANALYSIS (MIN, MAX, RANGE)
 
-cat("CSV Data type : ",class(x), "\n\n")
+#cat("CSV Data type : ",class(x), "\n\n")
 
-print(x)
-
-
-
-MostPeoplefromCertainCountries = subset(x, Number==max(Number))
-print(MostPeoplefromCertainCountries)
+#print(x)
 
 
-LessPeoplefromCertainCountries = subset(x, Number==min(Number))
-print(LessPeoplefromCertainCountries)
+
+#MostPeoplefromCertainCountries <-
+#  subset(x, Number==max(Number))
+#print(MostPeoplefromCertainCountries)
+
+
+#LessPeoplefromCertainCountries = subset(x, Number==min(Number))
+#print(LessPeoplefromCertainCountries)
 
 
 
@@ -221,10 +253,10 @@ print(LessPeoplefromCertainCountries)
 #FIRST ASSIGN A VARIABLE TO THE DATAFRAME WE WILL ANALYZE
 #ALWAYS THE SECOND POSITION
 
-hello <- function(data.frame) {
-  s <- subset(data.frame(x), x %>% select(2)==max(x %>% select(2)))
-  return(s)
-}
+#hello <- function(data.frame) {
+#  s <- subset(data.frame(x), x %>% select(2)==max(x %>% select(2)))
+#  return(s)
+#}
 
 #TEST
 #nationality(x)
