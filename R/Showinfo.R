@@ -2,7 +2,9 @@
 
 Showinfo <- function(){
 
-  x <- system.file("inst/extdata/Data.csv", package = "nation")
+  data <- system.file("extdata", "Data.csv", package = "nation")
+
+  x <- read.csv(data)
 
   y <- c("COUNTRIES","Number","cont","perc")
 
@@ -11,7 +13,10 @@ Showinfo <- function(){
   return(x)
 }
 Showgraph <- function(){
-  x <- system.file("inst/extdata/Data.csv", package = "nation")
+
+  data <- system.file("extdata", "Data.csv", package = "nation")
+
+  x <- read.csv(data)
 
   y <- c("COUNTRIES","Number","cont","perc")
 
@@ -23,7 +28,10 @@ Showgraph <- function(){
 }
 
 Showmost <- function(){
-  x <- system.file("inst/extdata/Data.csv", package = "nation")
+
+  data <- system.file("extdata", "Data.csv", package = "nation")
+
+  x <- read.csv(data)
 
   y <- c("COUNTRIES","Number","cont","perc")
 
@@ -35,11 +43,15 @@ Showmost <- function(){
 }
 
 Showless <- function(){
-  x <- system.file("inst/extdata/Data.csv", package = "nation")
+
+  data <- system.file("extdata", "Data.csv", package = "nation")
+
+  x <- read.csv(data)
 
   y <- c("COUNTRIES","Number","cont","perc")
 
   names(x) <- y
+
 
   ris <-  subset(x, Number==min(Number))
 
