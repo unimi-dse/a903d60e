@@ -4,7 +4,8 @@
 \usage{
 Showinfo()
 Showmost()
-Showless
+Showless()
+Showgraph()
 }
 \description{
 Prints 'Showinfo'.
