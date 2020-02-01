@@ -1,57 +1,57 @@
-Country,Number
-  Austria,9519898
-  Belgio,4912441
-  Danimarca,3296288
-  Finlandia,934276
-  Francia,14197976
-  Germania,58645390
-  Grecia,852765
-  Irlanda,1734636
-  Lussemburgo,387452
-  Paesi Bassi,11037222
-  Portogallo,1005014
-  Regno unito,14043501
-  Spagna,5684438
-  Svezia,2566196
-  Bulgaria,711441
-  CecaRepubblica,3903499
-  Cipro,97618
-  Croazia,697665
-  Estonia,216920
-  Lettonia,261615
-  Lituania,454214
-  Malta,373446
-  Norvegia,1285585
-  Polonia,5743920
-  Romania,2510265
-  Russia,5382255
-  Slovacchia,1144272
-  Slovenia,890307
-  Turchia,985097
-  Ungheria,2028427
-  Islanda,142553
-  Altri paesi europei,3746661
-  Egitto,285933
-  NordAfrica,606081
-  Sud Africa,303267
-  Altri paesi africani,780323
-  Israele,1732936
-  AltriMedioOriente,1454621
-  Cina,5287714
-  Giappone,2238222
-  Corea del sud,1843291
-  India,1258210
-  Altri Paesi dell'Asia,2568242
-  Canada,2398572
-  Stati Uniti,14546868
-  Messico,818997
-  Argentina,1752110
-  Brasile,2546197
-  Venezuela,137147
-  Altri Paesi Nordamericani,75297
-  Altri Paesi dell'America centro-meridionale,1664748
-  Nuova Zelanda,359063
-  Altri Paesi dell'Oceania,107875
-  Altri,877186
-  Switzerland and Liechtenstein,10679102
-  Australia,2795291
+Country,Number,Continent,Percentage
+  Austria,9519898,Europe
+  Belgio,4912441,Europe
+  Danimarca,3296288,Europe
+  Finlandia,934276,Europe
+  Francia,14197976,Europe
+  Germania,58645390,Europe
+  Grecia,852765,Europe
+  Irlanda,1734636,Europe
+  Lussemburgo,387452,Europe
+  Paesi Bassi,11037222,Europe
+  Portogallo,1005014,Europe
+  Regno unito,14043501,Europe
+  Spagna,5684438,Europe
+  Svezia,2566196,Europe
+  Bulgaria,711441,Europe
+  CecaRepubblica,3903499,Europe
+  Cipro,97618,Europe
+  Croazia,697665,Europe
+  Estonia,216920,Europe
+  Lettonia,261615,Europe
+  Lituania,454214,Europe
+  Malta,373446,Europe
+  Norvegia,1285585,Europe
+  Polonia,5743920,Europe
+  Romania,2510265,Europe
+  Russia,5382255,Europe
+  Slovacchia,1144272,Europe
+  Slovenia,890307,Europe
+  Turchia,985097,Europe
+  Ungheria,2028427,Europe
+  Islanda,142553,Europe
+  Altri paesi europei,3746661,Europe
+  Egitto,285933,Africa
+  NordAfrica,606081,Africa
+  Sud Africa,303267,Africa
+  Altri paesi africani,780323,Africa
+  Israele,1732936,Asia
+  AltriMedioOriente,1454621,Asia
+  Cina,5287714,Asia
+  Giappone,2238222,Asia
+  Corea del sud,1843291,Asia
+  India,1258210,Asia
+  Altri Paesi dell'Asia,2568242,Asia
+  Canada,2398572,NorthAmerica
+  Stati Uniti,14546868,NorthAmerica
+  Messico,818997,NorthAmerica
+  Argentina,1752110,SouthAmerica
+  Brasile,2546197,SouthAmerica
+  Venezuela,137147,SouthAmerica
+  Altri Paesi Nordamericani,75297,NorthAmerica
+  Altri Paesi dell'America centro-meridionale,1664748,SouthAmerica
+  Nuova Zelanda,359063,Oceania
+  Altri Paesi dell'Oceania,107875,Oceania
+  Altri,877186,SouthAmerica
+  Switzerland and Liechtenstein,10679102,Europe
+  Australia,2795291,Oceania
