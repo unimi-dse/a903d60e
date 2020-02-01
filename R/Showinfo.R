@@ -1,30 +1,45 @@
 
 
-Showinfo <- function(data.frame){
+Showinfo <- function(){
 
-  x <- system.file("inst/extdata/Data.csv", package = "sample")
+  x <- system.file("inst/extdata/Data.csv", package = "nation")
 
-  colnames(x) <- c("COUNTRIES","Number","cont","perc")
+  y <- c("COUNTRIES","Number","cont","perc")
 
-  ggplot2::ggplot(x, aes(displ, perc, colour = cont )) + geom_point()
+  names(x) <- y
 
   return(x)
 }
+Showgraph <- function(){
+  x <- system.file("inst/extdata/Data.csv", package = "nation")
 
-Showmost <- function(data.frame){
-  x <- system.file("inst/extdata/Data.csv", package = "sample")
+  y <- c("COUNTRIES","Number","cont","perc")
 
-  colnames(x) <- c("COUNTRIES","Number","cont","perc")
+  names(x) <- y
+
+  rr <- ggplot2::ggplot(x, aes(displ, perc, colour = cont )) + geom_point()
+
+  return(rr)
+}
+
+Showmost <- function(){
+  x <- system.file("inst/extdata/Data.csv", package = "nation")
+
+  y <- c("COUNTRIES","Number","cont","perc")
+
+  names(x) <- y
 
   res <- subset(x, Number==max(Number))
 
   return(res)
 }
 
-Showless <- function(data.frame){
-  x <- system.file("inst/extdata/Data.csv", package = "sample")
+Showless <- function(){
+  x <- system.file("inst/extdata/Data.csv", package = "nation")
 
-  colnames(x) <- c("COUNTRIES","Number","cont","perc")
+  y <- c("COUNTRIES","Number","cont","perc")
+
+  names(x) <- y
 
   ris <-  subset(x, Number==min(Number))
 
