@@ -4,7 +4,8 @@ Title: Sample Package
 Version: 0.1.0
 Author: who wrote it?
 Maintainer: who wrote it <email@hotmail.it>
-Description: Sample Package that do this
+Description: Functions to analyze tourism data can be found here. 
+             Highlight of this workflow is the comprehensive quality control report.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

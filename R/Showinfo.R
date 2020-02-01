@@ -1,6 +1,8 @@
 #install.packages('devtools', repos='http://cran.us.r-project.org')
 #install.packages('plyr', repos = "http://cran.us.r-project.org")
 
+utils::globalVariables(c("Number", "read.csv"))
+
 Showinfo <- function(){
 
   data <- system.file("extdata", "Data.csv", package = "nation")
