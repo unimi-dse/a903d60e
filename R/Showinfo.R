@@ -1,5 +1,5 @@
-install.packages('devtools', repos='http://cran.us.r-project.org')
-install.packages('plyr', repos = "http://cran.us.r-project.org")
+#install.packages('devtools', repos='http://cran.us.r-project.org')
+#install.packages('plyr', repos = "http://cran.us.r-project.org")
 
 Showinfo <- function(){
 
