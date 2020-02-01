@@ -12,20 +12,23 @@ Showinfo <- function(){
 
   return(x)
 }
-Showgraph <- function(){
+#Showgraph <- function(){
 
-  data <- system.file("extdata", "Data.csv", package = "nation")
+#  data <- system.file("extdata", "Data.csv", package = "nation")
 
-  x <- read.csv(data)
+#  x <- read.csv(data)
 
-  y <- c("COUNTRIES","Number","cont","perc")
+#  y <- c("COUNTRIES","Number","cont","perc")
 
-  names(x) <- y
+# names(x) <- y
 
-  rr <- ggplot2::ggplot(x, aes(displ, perc, colour = cont )) + geom_point()
+#  rr <- ggplot2::ggplot(x, aes(displ, perc, colour = cont )) + geom_point()
 
-  return(rr)
-}
+# return(rr)
+#}
+
+library(devtools)
+library(pkgbuild)
 
 Showmost <- function(){
 

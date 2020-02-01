@@ -5,7 +5,6 @@
 Showinfo()
 Showmost()
 Showless()
-Showgraph()
 }
 \description{
 Prints 'Showinfo'.
