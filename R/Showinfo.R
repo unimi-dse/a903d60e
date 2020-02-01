@@ -1,3 +1,6 @@
+install.packages('devtools', repos='http://cran.us.r-project.org')
+install.packages('plyr', repos = "http://cran.us.r-project.org")
+
 Showinfo <- function(){
 
   data <- system.file("extdata", "Data.csv", package = "nation")
@@ -115,8 +118,8 @@ Showless <- function(){
 #p
 
 #BEFORE USING PLOTLY, CHECK THE VERSION OF THE PACKAGE INSTALLED
-#install.packages('plotly', repos='http://cran.us.r-project.org')
-#install.packages('plyr', repos = "http://cran.us.r-project.org")
+install.packages('devtools', repos='http://cran.us.r-project.org')
+install.packages('plyr', repos = "http://cran.us.r-project.org")
 
 #library(plotly)
 #packageVersion('plotly')
