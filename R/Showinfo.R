@@ -1,5 +1,3 @@
-
-
 Showinfo <- function(){
 
   data <- system.file("extdata", "Data.csv", package = "nation")
@@ -12,23 +10,7 @@ Showinfo <- function(){
 
   return(x)
 }
-#Showgraph <- function(){
 
-#  data <- system.file("extdata", "Data.csv", package = "nation")
-
-#  x <- read.csv(data)
-
-#  y <- c("COUNTRIES","Number","cont","perc")
-
-# names(x) <- y
-
-#  rr <- ggplot2::ggplot(x, aes(displ, perc, colour = cont )) + geom_point()
-
-# return(rr)
-#}
-
-library(devtools)
-library(pkgbuild)
 
 Showmost <- function(){
 
