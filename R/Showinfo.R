@@ -1,24 +1,32 @@
 #install.packages('devtools', repos='http://cran.us.r-project.org')
 #install.packages('plyr', repos = "http://cran.us.r-project.org")
 
+#' @export Showinfo
+#' @export Showmost
+#' @export Showless
+
+# @importFrom utils
+
+
 
 utils::globalVariables(c("Number", "read.csv"))
 
-Showinfo <- function(){
 
-  data <- system.file("extdata", "Data.csv", package = "nation")
+Showinfo <- function(data){
 
-  x <- read.csv(data)
+                data <- system.file("extdata", "Data.csv", package = "nation")
 
-  y <- c("COUNTRIES","Number","cont","perc")
+                x <- read.csv(data)
 
-  names(x) <- y
+                y <- c("COUNTRIES","Number","cont","perc")
 
-  return(x)
+                names(x) <- y
+
+            return(x)
 }
 
 
-Showmost <- function(){
+Showmost <- function(data){
 
   data <- system.file("extdata", "Data.csv", package = "nation")
 
@@ -33,7 +41,7 @@ Showmost <- function(){
   return(res)
 }
 
-Showless <- function(){
+Showless <- function(data){
 
   data <- system.file("extdata", "Data.csv", package = "nation")
 
