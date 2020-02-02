@@ -1,5 +1,4 @@
-#install.packages('devtools', repos='http://cran.us.r-project.org')
-#install.packages('plyr', repos = "http://cran.us.r-project.org")
+
 
 #' @export Showinfo
 #' @export Showmost
@@ -28,33 +27,32 @@ Showinfo <- function(data){
 
 Showmost <- function(data){
 
-  data <- system.file("extdata", "Data.csv", package = "nation")
+                data <- system.file("extdata", "Data.csv", package = "nation")
 
-  x <- read.csv(data)
+                x <- read.csv(data)
 
-  y <- c("COUNTRIES","Number","cont","perc")
+                y <- c("COUNTRIES","Number","cont","perc")
 
-  names(x) <- y
+                names(x) <- y
 
-  res <- subset(x, Number==max(Number))
+                res <- subset(x, Number==max(Number))
 
-  return(res)
+            return(res)
 }
 
 Showless <- function(data){
 
-  data <- system.file("extdata", "Data.csv", package = "nation")
+                data <- system.file("extdata", "Data.csv", package = "nation")
 
-  x <- read.csv(data)
+                x <- read.csv(data)
 
-  y <- c("COUNTRIES","Number","cont","perc")
+                y <- c("COUNTRIES","Number","cont","perc")
 
-  names(x) <- y
+                names(x) <- y
 
+                ris <-  subset(x, Number==min(Number))
 
-  ris <-  subset(x, Number==min(Number))
-
-  return(ris)
+            return(ris)
 }
 
 
